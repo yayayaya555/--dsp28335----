@@ -1,0 +1,8 @@
+------------------------------  BUT.pjt - Debug  ------------------------------
+[main.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab3-3x4 Button/Debug" -i"D:/MyProjects/28335 new board/base board/lab3-3x4 Button/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "main.c"
+
+[Linking...] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

@@ -1,0 +1,1 @@
+"../CMD/28335_RAM_lnk.cmd" "../CMD/DSP2833x_Headers_nonBIOS.cmd" "./lab-FFT.obj" "./DSP2833x_usDelay.obj" "./DSP2833x_Xintf.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_I2C.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_ADC_cal.obj" -l"rts2800_fpu32.lib" 

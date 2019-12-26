@@ -1,0 +1,15 @@
+--silicon_version=28 
+-g 
+--define="_DEBUG" --define="LARGE_MODEL" 
+--diag_warning=225 
+--large_memory_model 
+--float_support=fpu32 
+-z 
+-m"SD.map" 
+--stack_size=1000 
+--heap_size=1000 
+--warn_sections 
+-i"D:/Program Files/Texas Instruments/ccsv4/tools/compiler/c2000/lib" -i"D:/Program Files/Texas Instruments/ccsv4/tools/compiler/c2000/include" -i"F:/workspace1/lab10-SD-SPI-Fatfs" 
+--reread_libs 
+--rom_model 
+"../CMD/DSP2833x_Headers_nonBIOS.cmd" "./main.obj" "./ff.obj" "./diskio.obj" "./disk_sd.obj" "./SD_SPI_Write.obj" "./SD_SPI_Transmission.obj" "./SD_SPI_Registers.obj" "./SD_SPI_Read.obj" "./SD_SPI_Initialization.obj" "./SD_SPI_Erase.obj" "./DSP2833x_usDelay.obj" "./DSP2833x_Xintf.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_CodeStartBranch.obj" -l"rts2800_fpu32.lib" "../CMD/28335_RAM_lnk.cmd" 

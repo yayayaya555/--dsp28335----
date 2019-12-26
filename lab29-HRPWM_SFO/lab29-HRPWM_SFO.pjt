@@ -1,0 +1,54 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\CCStudio_v3.3\MyProjects\yanxu001\HRPWM_SFO\"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="lib\SFO_TI_Build_fpu.lib"
+Source="source\DSP2833x_ADC_cal.asm"
+Source="source\DSP2833x_CodeStartBranch.asm"
+Source="source\DSP2833x_DefaultIsr.c"
+Source="source\DSP2833x_EPwm.c"
+Source="source\DSP2833x_GlobalVariableDefs.c"
+Source="source\DSP2833x_Gpio.c"
+Source="source\DSP2833x_PieCtrl.c"
+Source="source\DSP2833x_PieVect.c"
+Source="source\DSP2833x_SysCtrl.c"
+Source="source\DSP2833x_usDelay.asm"
+Source="source\DSP2833x_Xintf.c"
+Source="source\HRPWM_SFO.c"
+Source="cmd\28335_RAM_lnk.cmd"
+Source="cmd\DSP2833x_Headers_nonBIOS.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -i"C:\CCStudio_v3.3\MyProjects\yanxu001\HRPWM_SFO\include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32
+
+["Compiler" Settings: "Release"]
+Options=-pdsw225 -o3 -fr"$(Proj_dir)\Release" -d"LARGE_MODEL" -ml -v28
+
+["Linker" Settings: "Debug"]
+Options=-c -ecode_strat -heap1000 -m".\Debug\HRPWM_SFO.map" -o".\Debug\HRPWM_SFO.out" -stack1000 -w -x -l"rts2800_fpu32.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\HRPWM_SFO.map" -o".\Release\HRPWM_SFO.out" -w -x
+
+["cmd\28335_RAM_lnk.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["cmd\28335_RAM_lnk.cmd" Settings: "Release"]
+LinkOrder=1
+
+["cmd\DSP2833x_Headers_nonBIOS.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["cmd\DSP2833x_Headers_nonBIOS.cmd" Settings: "Release"]
+LinkOrder=1
+

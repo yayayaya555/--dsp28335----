@@ -1,0 +1,31 @@
+----------------------------  39VF800.pjt - Debug  ----------------------------
+[39VF1601.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "39VF1601.c"
+
+[DSP2833x_ADC_cal.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_ADC_cal.asm"
+
+[DSP2833x_CodeStartBranch.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_CodeStartBranch.asm"
+
+[DSP2833x_CpuTimers.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_CpuTimers.c"
+
+[DSP2833x_DefaultIsr.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_DefaultIsr.c"
+
+[DSP2833x_GlobalVariableDefs.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_GlobalVariableDefs.c"
+
+[DSP2833x_PieCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_PieCtrl.c"
+
+[DSP2833x_PieVect.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_PieVect.c"
+
+[DSP2833x_SysCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_SysCtrl.c"
+
+[DSP2833x_usDelay.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_usDelay.asm"
+
+[DSP2833x_Xintf.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_Xintf.c"
+
+[FLASH.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/Debug" -i"C:/CCStudio_v3.3/MyProjects/28335A111111/lab15-39VF800/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "FLASH.c"
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+>> warning: entry point other than _c_int00 specified
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

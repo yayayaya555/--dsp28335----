@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="lab22-McBSP-SPI-LOOKBACK.com.ti.ccstudio.buildDefinitions.C2000.ProjectType.867060278" name="C2000" projectType="com.ti.ccstudio.buildDefinitions.C2000.ProjectType">
+<configuration artifactExtension="out" artifactName="McBSP_SPI" description="" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143" name="Debug" parent="com.ti.ccstudio.buildDefinitions.C2000.Debug">
+<toolChain id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.DebugToolchain.1874309380" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.1213559594" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="5.2.3" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1210475703" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C28XX"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=none"/>
+<listOptionValue builtIn="false" value="IS_ELF=false"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY="/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.1.2"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+<listOptionValue builtIn="false" value="RTSC_PRODUCTS=com.ti.rtsc.XDAIS:latest;"/>
+<listOptionValue builtIn="false" value="LINK_ORDER=cmd/DSP2833x_Headers_nonBIOS.cmd;"/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIAG_WARNING.1258598868" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.INCLUDE_PATH.395891407" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lab22-McBSP-SPI-LOOKBACK/include}&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${XDAIS_CG_ROOT}/packages/ti/xdais&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE.1854549682" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE.manual" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DEFINE.602959557" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DEFINE" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="&quot;_DEBUG&quot;"/>
+<listOptionValue builtIn="false" value="&quot;LARGE_MODEL&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.LARGE_MEMORY_MODEL.1356974181" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.LARGE_MEMORY_MODEL" value="true" valueType="boolean"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION.321923339" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION.28" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.FLOAT_SUPPORT.521794597" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.FLOAT_SUPPORT" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.FLOAT_SUPPORT.fpu32" valueType="enumerated"/>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE.1486199851" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE" value="&quot;McBSP_SPI.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE.1232756515" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE" value="&quot;McBSP_SPI.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.SEARCH_PATH.393078976" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.HEAP_SIZE.1660132453" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.HEAP_SIZE" value="1000" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.STACK_SIZE.1873720764" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.STACK_SIZE" value="1000" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.LIBRARY.1585623710" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;rts2800_fpu32.lib&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.generatedLinkerCommandFiles.1949873217" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.generatedLinkerCommandFiles" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;$(GEN_CMDS_QUOTED)&quot;"/>
+</option>
+</tool>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Xintf.c" name="DSP2833x_Xintf.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Xintf.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Xintf.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Xintf.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Spi.c" name="DSP2833x_Spi.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Spi.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Spi.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Spi.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Sci.c" name="DSP2833x_Sci.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Sci.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Sci.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Sci.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedPieVect.c" name="DSP2833x_SWPrioritizedPieVect.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedPieVect.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedPieVect.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedPieVect.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedDefaultIsr.c" name="DSP2833x_SWPrioritizedDefaultIsr.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedDefaultIsr.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedDefaultIsr.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedDefaultIsr.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_MemCopy.c" name="DSP2833x_MemCopy.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_MemCopy.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_MemCopy.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_MemCopy.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_I2C.c" name="DSP2833x_I2C.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_I2C.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_I2C.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_I2C.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Gpio.c" name="DSP2833x_Gpio.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Gpio.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Gpio.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Gpio.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EQep.c" name="DSP2833x_EQep.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EQep.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EQep.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EQep.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EPwm.c" name="DSP2833x_EPwm.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EPwm.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EPwm.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EPwm.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECap.c" name="DSP2833x_ECap.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECap.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECap.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECap.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECan.c" name="DSP2833x_ECan.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECan.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECan.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECan.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DisInt.asm" name="DSP2833x_DisInt.asm" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DisInt.asm" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DisInt.asm">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DisInt.asm" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DMA.c" name="DSP2833x_DMA.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DMA.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DMA.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DMA.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DBGIER.asm" name="DSP2833x_DBGIER.asm" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DBGIER.asm" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DBGIER.asm">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DBGIER.asm" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CpuTimers.c" name="DSP2833x_CpuTimers.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CpuTimers.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CpuTimers.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CpuTimers.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CSMPasswords.asm" name="DSP2833x_CSMPasswords.asm" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CSMPasswords.asm" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CSMPasswords.asm">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CSMPasswords.asm" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Adc.c" name="DSP2833x_Adc.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Adc.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Adc.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Adc.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerDebug.64742403"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/cmd/F28335.cmd" name="F28335.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/F28335.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/F28335.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/F28335.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/cmd/F28334.cmd" name="F28334.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/F28334.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/F28334.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/F28334.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/cmd/F28332.cmd" name="F28332.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/F28332.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/F28332.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/F28332.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/cmd/28334_RAM_lnk.cmd" name="28334_RAM_lnk.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/28334_RAM_lnk.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/28334_RAM_lnk.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/28334_RAM_lnk.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/cmd/28332_RAM_lnk.cmd" name="28332_RAM_lnk.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/28332_RAM_lnk.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/28332_RAM_lnk.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/28332_RAM_lnk.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="false" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/cmd/28335_RAM_lnk.cmd" name="28335_RAM_lnk.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/28335_RAM_lnk.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/28335_RAM_lnk.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/28335_RAM_lnk.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223">
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE.838628482" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE" value="&quot;../cmd/Debug/McBSP_SPI.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE.440432508" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE" value="&quot;../cmd/Debug/McBSP_SPI.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.LIBRARY.1221383727" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;rts2800_fpu32.lib&quot;"/>
+</option>
+</tool>
+</resourceConfiguration>
+<resourceConfiguration exclude="false" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.377798143./lab22-McBSP-SPI-LOOKBACK/cmd/DSP2833x_Headers_nonBIOS.cmd" name="DSP2833x_Headers_nonBIOS.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/DSP2833x_Headers_nonBIOS.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/DSP2833x_Headers_nonBIOS.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223./lab22-McBSP-SPI-LOOKBACK/cmd/DSP2833x_Headers_nonBIOS.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerDebug.1301662223">
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE.280165449" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE" value="&quot;../cmd/Debug/McBSP_SPI.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE.1880008816" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE" value="&quot;../cmd/Debug/McBSP_SPI.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.LIBRARY.1842349707" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;rts2800_fpu32.lib&quot;"/>
+</option>
+</tool>
+</resourceConfiguration>
+</configuration>
+<configuration artifactExtension="out" artifactName="McBSP_SPI" description="" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284" name="Release" parent="com.ti.ccstudio.buildDefinitions.C2000.Release">
+<toolChain id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.ReleaseToolchain.1695838340" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.1559341575" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="5.2.3" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1996233806" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C28XX"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=none"/>
+<listOptionValue builtIn="false" value="IS_ELF=false"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY="/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.1.2"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+<listOptionValue builtIn="false" value="RTSC_PRODUCTS=com.ti.rtsc.XDAIS:latest;"/>
+<listOptionValue builtIn="false" value="LINK_ORDER=cmd/DSP2833x_Headers_nonBIOS.cmd;"/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIAG_WARNING.1796090881" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.INCLUDE_PATH.1685598128" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${XDAIS_CG_ROOT}/packages/ti/xdais&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OPT_LEVEL.release.1549828531" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OPT_LEVEL.release" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OPT_LEVEL.3" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE.859850188" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE.manual" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DEFINE.2106724302" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DEFINE" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="&quot;LARGE_MODEL&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.LARGE_MEMORY_MODEL.211268890" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.LARGE_MEMORY_MODEL" value="true" valueType="boolean"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION.1934757452" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION.28" valueType="enumerated"/>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE.1077247355" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE" value="&quot;McBSP_SPI.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE.1452840351" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE" value="&quot;McBSP_SPI.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.SEARCH_PATH.2140976061" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}&quot;"/>
+</option>
+</tool>
+</toolChain>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Xintf.c" name="DSP2833x_Xintf.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Xintf.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Xintf.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Xintf.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Spi.c" name="DSP2833x_Spi.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Spi.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Spi.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Spi.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Sci.c" name="DSP2833x_Sci.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Sci.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Sci.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Sci.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedPieVect.c" name="DSP2833x_SWPrioritizedPieVect.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedPieVect.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedPieVect.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedPieVect.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedDefaultIsr.c" name="DSP2833x_SWPrioritizedDefaultIsr.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedDefaultIsr.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedDefaultIsr.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_SWPrioritizedDefaultIsr.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_MemCopy.c" name="DSP2833x_MemCopy.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_MemCopy.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_MemCopy.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_MemCopy.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_I2C.c" name="DSP2833x_I2C.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_I2C.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_I2C.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_I2C.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Gpio.c" name="DSP2833x_Gpio.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Gpio.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Gpio.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Gpio.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EQep.c" name="DSP2833x_EQep.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EQep.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EQep.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EQep.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EPwm.c" name="DSP2833x_EPwm.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EPwm.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EPwm.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_EPwm.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECap.c" name="DSP2833x_ECap.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECap.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECap.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECap.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECan.c" name="DSP2833x_ECan.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECan.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECan.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_ECan.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DisInt.asm" name="DSP2833x_DisInt.asm" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DisInt.asm" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DisInt.asm">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DisInt.asm" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DMA.c" name="DSP2833x_DMA.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DMA.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DMA.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DMA.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DBGIER.asm" name="DSP2833x_DBGIER.asm" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DBGIER.asm" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DBGIER.asm">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_DBGIER.asm" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CpuTimers.c" name="DSP2833x_CpuTimers.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CpuTimers.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CpuTimers.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CpuTimers.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CSMPasswords.asm" name="DSP2833x_CSMPasswords.asm" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CSMPasswords.asm" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CSMPasswords.asm">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_CSMPasswords.asm" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Adc.c" name="DSP2833x_Adc.c" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Adc.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Adc.c">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553./lab22-McBSP-SPI-LOOKBACK/source/DSP2833x_Adc.c" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.compilerRelease.2067319553"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/cmd/F28335.cmd" name="F28335.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/F28335.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/F28335.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/F28335.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/cmd/F28334.cmd" name="F28334.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/F28334.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/F28334.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/F28334.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/cmd/F28332.cmd" name="F28332.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/F28332.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/F28332.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/F28332.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/cmd/28334_RAM_lnk.cmd" name="28334_RAM_lnk.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/28334_RAM_lnk.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/28334_RAM_lnk.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/28334_RAM_lnk.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/cmd/28332_RAM_lnk.cmd" name="28332_RAM_lnk.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/28332_RAM_lnk.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/28332_RAM_lnk.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/28332_RAM_lnk.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="false" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/cmd/28335_RAM_lnk.cmd" name="28335_RAM_lnk.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/28335_RAM_lnk.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/28335_RAM_lnk.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/28335_RAM_lnk.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930">
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE.1609127713" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE" value="&quot;../cmd/Release/McBSP_SPI.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE.1213922578" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE" value="&quot;../cmd/Release/McBSP_SPI.out&quot;" valueType="string"/>
+</tool>
+</resourceConfiguration>
+<resourceConfiguration exclude="false" id="com.ti.ccstudio.buildDefinitions.C2000.Release.1513756284./lab22-McBSP-SPI-LOOKBACK/cmd/DSP2833x_Headers_nonBIOS.cmd" name="DSP2833x_Headers_nonBIOS.cmd" rcbsApplicability="disable" resourcePath="/lab22-McBSP-SPI-LOOKBACK/cmd/DSP2833x_Headers_nonBIOS.cmd" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/DSP2833x_Headers_nonBIOS.cmd">
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930./lab22-McBSP-SPI-LOOKBACK/cmd/DSP2833x_Headers_nonBIOS.cmd" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.exe.linkerRelease.836109930">
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE.730588927" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.MAP_FILE" value="&quot;../cmd/Release/McBSP_SPI.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE.724054670" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.linkerID.OUTPUT_FILE" value="&quot;../cmd/Release/McBSP_SPI.out&quot;" valueType="string"/>
+</tool>
+</resourceConfiguration>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

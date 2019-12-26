@@ -1,0 +1,30 @@
+-----------------------------  DHT11.pjt - Debug  -----------------------------
+[DSP2833x_ADC_cal.asm] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_ADC_cal.asm"
+
+[DSP2833x_CodeStartBranch.asm] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_CodeStartBranch.asm"
+
+[DSP2833x_CpuTimers.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_CpuTimers.c"
+
+[DSP2833x_DefaultIsr.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_DefaultIsr.c"
+
+[DSP2833x_GlobalVariableDefs.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_GlobalVariableDefs.c"
+
+[DSP2833x_PieCtrl.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_PieCtrl.c"
+
+[DSP2833x_PieVect.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_PieVect.c"
+
+[DSP2833x_Sci.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_Sci.c"
+
+[DSP2833x_SysCtrl.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_SysCtrl.c"
+
+[DSP2833x_usDelay.asm] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_usDelay.asm"
+
+[DSP2833x_Xintf.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_Xintf.c"
+
+[main.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/Debug" -i"D:/MyProjects/28335 new board/base board/lab5-hs0038b+LCD/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "main.c"
+
+[Linking...] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

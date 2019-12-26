@@ -1,0 +1,9 @@
+----------------------------  i2c_rtc.pjt - Debug  ----------------------------
+[i2c_rtc.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/DSP test/28335B test/lab19-i2c_rtc/Debug" -i"C:/CCStudio_v3.3/MyProjects/DSP test/28335B test/lab19-i2c_rtc/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "i2c_rtc.c"
+"i2c_rtc.c", line 252: warning: variable "i" was declared but never referenced
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

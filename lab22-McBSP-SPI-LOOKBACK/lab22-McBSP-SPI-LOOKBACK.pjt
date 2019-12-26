@@ -1,0 +1,51 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\CCStudio_v3.3\MyProjects\example_a\lab11-McBSP-SPI-LOOKBACK\"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="source\DSP2833x_ADC_cal.asm"
+Source="source\DSP2833x_CodeStartBranch.asm"
+Source="source\DSP2833x_DefaultIsr.c"
+Source="source\DSP2833x_GlobalVariableDefs.c"
+Source="source\DSP2833x_Mcbsp.c"
+Source="source\DSP2833x_PieCtrl.c"
+Source="source\DSP2833x_PieVect.c"
+Source="source\DSP2833x_SysCtrl.c"
+Source="source\DSP2833x_usDelay.asm"
+Source="source\Example_2833xMcBSP_SPI_DLB.c"
+Source="cmd\28335_RAM_lnk.cmd"
+Source="cmd\DSP2833x_Headers_nonBIOS.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -i"..\include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32
+
+["Compiler" Settings: "Release"]
+Options=-pdsw225 -o3 -fr"$(Proj_dir)\Release" -d"LARGE_MODEL" -ml -v28
+
+["Linker" Settings: "Debug"]
+Options=-c -heap1000 -m".\Debug\McBSP_SPI.map" -o".\Debug\McBSP_SPI.out" -stack1000 -w -x -l"rts2800_fpu32.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\McBSP_SPI.map" -o".\Release\McBSP_SPI.out" -w -x
+
+["cmd\28335_RAM_lnk.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["cmd\28335_RAM_lnk.cmd" Settings: "Release"]
+LinkOrder=1
+
+["cmd\DSP2833x_Headers_nonBIOS.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["cmd\DSP2833x_Headers_nonBIOS.cmd" Settings: "Release"]
+LinkOrder=1
+

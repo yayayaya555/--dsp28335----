@@ -1,0 +1,61 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\CCStudio_v3.3\MyProjects\DSP test\28335A11111\10-SCIC\"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="SCI.pjt"
+Source="SRC\DSP2833x_ADC_cal.asm"
+Source="SRC\DSP2833x_CodeStartBranch.asm"
+Source="SRC\DSP2833x_CpuTimers.c"
+Source="SRC\DSP2833x_DefaultIsr.c"
+Source="SRC\DSP2833x_GlobalVariableDefs.c"
+Source="SRC\DSP2833x_PieCtrl.c"
+Source="SRC\DSP2833x_PieVect.c"
+Source="SRC\DSP2833x_Sci.c"
+Source="SRC\DSP2833x_Spi.c"
+Source="SRC\DSP2833x_SysCtrl.c"
+Source="SRC\DSP2833x_usDelay.asm"
+Source="SRC\DSP2833x_Xintf.c"
+Source="SRC\SCI.c"
+Source="CMD\28335_RAM_lnk.cmd"
+Source="CMD\DSP2833x_Headers_nonBIOS.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -i"..\include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32
+
+["Compiler" Settings: "Release"]
+Options=-pdsw225 -o3 -fr"$(Proj_dir)\Release" -d"LARGE_MODEL" -ml -v28
+
+["Linker" Settings: "Debug"]
+Options=-a -c -ecode_start -heap1000 -m".\Debug\SCI.map" -o".\Debug\SCI.out" -stack1000 -w -x -l"rts2800_fpu32.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\SCI.map" -o".\Release\SCI.out" -w -x
+
+["SCI.pjt" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["SCI.pjt" Settings: "Release"]
+ExcludeFromBuild=true
+
+["CMD\28335_RAM_lnk.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["CMD\28335_RAM_lnk.cmd" Settings: "Release"]
+LinkOrder=1
+
+["CMD\DSP2833x_Headers_nonBIOS.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["CMD\DSP2833x_Headers_nonBIOS.cmd" Settings: "Release"]
+LinkOrder=1
+

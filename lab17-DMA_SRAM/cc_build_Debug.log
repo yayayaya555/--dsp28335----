@@ -1,0 +1,30 @@
+----------------------------  DMA_SRAM.pjt - Debug  ----------------------------
+[DSP2833x_Adc.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_Adc.c"
+
+[DSP2833x_ADC_cal.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_ADC_cal.asm"
+
+[DSP2833x_CodeStartBranch.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_CodeStartBranch.asm"
+
+[DSP2833x_DefaultIsr.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_DefaultIsr.c"
+
+[DSP2833x_DMA.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_DMA.c"
+
+[DSP2833x_GlobalVariableDefs.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_GlobalVariableDefs.c"
+
+[DSP2833x_PieCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_PieCtrl.c"
+
+[DSP2833x_PieVect.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_PieVect.c"
+
+[DSP2833x_SysCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_SysCtrl.c"
+
+[DSP2833x_usDelay.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_usDelay.asm"
+
+[DSP2833x_Xintf.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "DSP2833x_Xintf.c"
+
+[Example_2833xDMA_xintf_to_ram.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/Debug" -i"C:/CCStudio_v3.3/MyProjects/yanxu/DMA_SRAM/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "Example_2833xDMA_xintf_to_ram.c"
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

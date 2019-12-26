@@ -1,0 +1,8 @@
+----------------------------  lab-FFT.pjt - Debug  ----------------------------
+[lab-FFT.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/DSP test/28335A/lab-FFT/Debug" -i"C:/CCStudio_v3.3/MyProjects/DSP test/28335A/lab-FFT/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "lab-FFT.c"
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

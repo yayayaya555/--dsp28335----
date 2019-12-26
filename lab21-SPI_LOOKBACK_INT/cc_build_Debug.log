@@ -1,0 +1,9 @@
+--------------------------  Spi_lookback.pjt - Debug  --------------------------
+[Spi_lookback.c] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -g -pdsw225 -fr"E:/MYDSP/28335EVM-U16/C/Spi_lookback/Debug" -i"../include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "Spi_lookback.c"
+
+[Linking...] "C:\Program Files\C2000 Code Generation Tools 5.0.0 Beta2\bin\cl2000" -@"Debug.lkf"
+<Linking>
+>> warning: entry point other than _c_int00 specified
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

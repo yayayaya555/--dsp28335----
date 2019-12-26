@@ -1,0 +1,8 @@
+------------------------------  PWM.pjt - Debug  ------------------------------
+[Example_EPwmSetup.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -pdsw225 -fr"C:/CCStudio_v3.3/MyProjects/DSP test/28335B test/lab24-PWM/Debug" -i"C:/CCStudio_v3.3/MyProjects/DSP test/28335B test/lab24-PWM/INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32 -@"../Debug.lkf" "Example_EPwmSetup.c"
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

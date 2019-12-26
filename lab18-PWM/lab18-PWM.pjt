@@ -1,0 +1,54 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\CCStudio_v3.3\MyProjects\DSP test\28335B test\lab24-PWM\"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="SRC\DSP2833x_ADC_cal.asm"
+Source="SRC\DSP2833x_CodeStartBranch.asm"
+Source="SRC\DSP2833x_CpuTimers.c"
+Source="SRC\DSP2833x_DefaultIsr.c"
+Source="SRC\DSP2833x_EPwm.c"
+Source="SRC\DSP2833x_GlobalVariableDefs.c"
+Source="SRC\DSP2833x_PieCtrl.c"
+Source="SRC\DSP2833x_PieVect.c"
+Source="SRC\DSP2833x_SysCtrl.c"
+Source="SRC\DSP2833x_usDelay.asm"
+Source="SRC\DSP2833x_Xintf.c"
+Source="SRC\Example_EPwmSetup.c"
+Source="SRC\PWM.c"
+Source="CMD\28335_RAM_lnk.cmd"
+Source="CMD\DSP2833x_Headers_nonBIOS.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -i"C:\CCStudio_v3.3\MyProjects\DSP test\28335B test\lab24-PWM\INCLUDE" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 --float_support=fpu32
+
+["Compiler" Settings: "Release"]
+Options=-pdsw225 -o3 -fr"$(Proj_dir)\Release" -d"LARGE_MODEL" -ml -v28
+
+["Linker" Settings: "Debug"]
+Options=-c -ecode_strat -heap1000 -m".\Debug\PWM.map" -o".\Debug\PWM.out" -stack1000 -w -x -l"rts2800_fpu32.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\PWM.map" -o".\Release\PWM.out" -w -x
+
+["CMD\28335_RAM_lnk.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["CMD\28335_RAM_lnk.cmd" Settings: "Release"]
+LinkOrder=1
+
+["CMD\DSP2833x_Headers_nonBIOS.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["CMD\DSP2833x_Headers_nonBIOS.cmd" Settings: "Release"]
+LinkOrder=1
+
